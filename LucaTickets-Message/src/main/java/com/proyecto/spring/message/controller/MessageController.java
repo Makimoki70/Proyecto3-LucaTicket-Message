@@ -14,6 +14,16 @@ import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 
+/**
+ * 
+ * Nombre de clase: MessageController. Descripcion: Controlador del microservicio Message.
+ * Implementa el metodo validatePayment, el cual mandara una respuesta aleatoria entre las guardadas (1 respuesta correcta y 4 incorrectas).
+ * Fecha: 12/12/2022
+ * @author Alberto Egea
+ * @version 0.2
+ * @since 0.1
+ * 
+ */
 @RestController
 @RequestMapping("/message")
 public class MessageController {

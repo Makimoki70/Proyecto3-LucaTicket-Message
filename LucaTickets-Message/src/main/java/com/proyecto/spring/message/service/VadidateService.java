@@ -26,7 +26,7 @@ public class VadidateService {
 	}
 	
 	private Message databaseError(){
-		return new Message("999.9998", "Error en la base de datos.");
+		return new Message("500.3004", "Expirado tiempo de validacion de PaysafeCard. Intentalo de nuevo.");
 	}
 	
 	public Message randomResponse(){
